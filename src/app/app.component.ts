@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shopingapp';
+  property = "Mudassar"
+  constructor()
+  {
+
+  }
+  ClickMudassar()
+  {
+    this.property = "Sardar Mudassar Ali Khan";
+  }
 }
